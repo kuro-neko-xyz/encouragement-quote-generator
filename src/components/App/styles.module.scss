@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "DM Mono";
+  src: url("../../assets/fonts/DMMono-Regular.ttf") format("truetype");
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.app {
+  background: linear-gradient(to bottom, #add8e6, #ffb6c1);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Mono", monospace;
+  animation: fadeIn 0.5s ease-in-out;
+}
